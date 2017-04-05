@@ -28,3 +28,4 @@ var a = _immutable2.default.fromJS({
 });
 var b = a.setIn(['a', 'b'], 2); // 使用 setIn 赋值
 console.log(a.getIn(['a', 'b'])); // 使用 getIn 取值
+console.log(b.getIn(['a', 'b']));
